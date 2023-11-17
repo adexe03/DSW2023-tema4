@@ -15,5 +15,5 @@ $res = $bd->clients->insertMany([
   ['nombre' => 'Julia', 'ciclo' => 'DAW', 'edad' => 22]
 ]);
 
-echo "Elementos insertados: {$res->getInsertedCount()} <br>";
+echo "Registros insertados: {$res->getInsertedCount()} <br>";
 print_r($res->getInsertedIds());
